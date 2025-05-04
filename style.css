@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow-color: hsl(47, 88%, 63%);
+    --gray-color1: hsl(0, 0%, 42%);
+    --gray-color2: hsl(0, 0%, 7%);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: var(--yellow-color);
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid var(--gray-color2);
+    max-width: 300px;
+    display: block;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 0 20px;
+    box-shadow: 7px 7px 0 0 var(--gray-color2);
+}
+
+.card .article {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+}
